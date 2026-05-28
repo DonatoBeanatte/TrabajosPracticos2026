@@ -5,3 +5,4 @@ let resultado
 resultadp = numero1 + numero2;
 
 console.log(resultado);
+alert(resultado)
