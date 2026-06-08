@@ -1,0 +1,16 @@
+#Inicio{
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    background-color: aqua;
+    border: 10px solid;
+    border-radius: 5px;
+}
+#Desarrollo{
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 10px solid;
+    border-radius: 5px;
+}
