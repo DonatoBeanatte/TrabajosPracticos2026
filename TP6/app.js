@@ -1,19 +1,19 @@
 //Variables
-let btnTexto = document.querySelector('BotonCambiarTexto')
-let btnColor = document.querySelector('BotonCambiarColor')
-let btnFondo = document.querySelector('BotonCambiarFondo')
-let btnLetra = document.querySelector('BotonCambiarLetra')
-let btnTamaño = document.querySelector('BotonCambiarTamaño')
-let btnReiniciar = document.querySelector('BotonReiniciar')
+let btnTexto = document.querySelector('btnTexto')
+let btnColor = document.querySelector('btnColor')
+let btnFondo = document.querySelector('btnFondo')
+let btnLetra = document.querySelector('btnLetra')
+let btnTamaño = document.querySelector('btnTamaño')
+let btnReiniciar = document.querySelector('btnReiniciar')
 
-let p = document.querySelector('p')
-btnTexto.onclick = function(){
+let p = document.querySelector('parrafo')
+btnTexto.onclick = function () {
     p.textContent = 'Bienvenido a programación'
 }
-btnColor.onclick = function (){
+btnColor.onclick = function () {
     p.style.color = 'green'
 }
-btnFondo.onclick = function(){
+btnFondo.onclick = function () {
     p.style.backgroundColor = 'purple'
 }
 btnLetra.onclick = function(){
