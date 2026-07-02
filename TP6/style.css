@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(218, 224, 224);
+    background-color: rgb(80, 87, 87);
     color: rgb(4, 4, 5);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -8,21 +8,23 @@ body{
     align-items: center;
 }
 .p{
-   height: 200px;
+   font-size: 15px;
    color: rgb(0, 0, 0); 
 }
 .button{
-    background-color: rgb(227, 230, 235);
+    background-color: rgb(80, 87, 87);
     color: rgb(11, 11, 12);
     padding: 10px;
-    border: none rgb(15, 15, 15);
+    border: none rgb(220, 216, 216);
     border-radius: 10px;
 }
 .button:hover{
-    color: rgb(8, 8, 8);
+    background-color: gray;
     transition: 0.5s;
+    transform: rotate(10deg);
 }
 div{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
