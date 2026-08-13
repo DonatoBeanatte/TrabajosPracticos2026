@@ -23,7 +23,7 @@ let Ej3 = document.querySelector('#Ej3')
 let botonEj3 = document.querySelector('#botonEj3')
 let nombreUsuario2 = 'Raul'
 botonEj3.onclick = function(){
-    if (nombreUsuario2 = 'Raul'||nombreUsuario2 = 'Pedro'){
+    if (nombreUsuario2 == 'Raul'||nombreUsuario2 == 'Pedro'){
         Ej3.textContent = 'Bienvenido + nombreUsuario2 + , ¿como estas?' 
     } else {
         Ej3.textContent = 'Bienvenido + nombreUsuario2'
@@ -59,11 +59,11 @@ botonEj5.onclick = function(){
         Ej5.textContent = 'edad no valida'
     }
 }
-let Ej6 = document.querySelector(#Ej6)
+let Ej6 = document.querySelector('#Ej6')
 let botonEj6 = document.querySelector('#botonEj6')
 let dia = 'domingo'
 botonEj6.onclick = function(){
-    if (dia = 'lunes, martes, miercoles, jueves o viernes') {
+    if (dia == 'lunes, martes, miercoles, jueves o viernes') {
         Ej6.textContent = 'es un dia laborable'
     } else if (dia = 'sabado o domingo') {
         Ej6.textContent = 'es fin de semana'
@@ -73,7 +73,7 @@ let Ej7 = document.querySelector('#Ej7')
 let botonEj7 = document.querySelector('#botonEj7')
 let contraseña = 'secreto'
 botonEj7.onclick = function(){
-    if (contraseña = 'secreto') {
+    if (contraseña == 'secreto') {
         Ej7.textContent = 'acceso concedido'
     } else {
         Ej7.textContent = 'acceso denegado'
