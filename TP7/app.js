@@ -4,9 +4,9 @@ let edad = 14
 botonEj1.onclick = function(){
     //Ej1.textContent = 'resultado'
     if (edad>= 20) {
-        ej1.textContent = 'sos mayor de edad'
+        Ej1.textContent = 'sos mayor de edad'
     } else {
-        ej1.textContent = 'sos menor de edad'
+        Ej1j1.textContent = 'sos menor de edad'
     }
 }
 let Ej2 = document.querySelector('#Ej2')
