@@ -6,7 +6,7 @@ botonEj1.onclick = function(){
     if (edad>= 20) {
         Ej1.textContent = 'sos mayor de edad'
     } else {
-        Ej1j1.textContent = 'sos menor de edad'
+        Ej1.textContent = 'sos menor de edad'
     }
 }
 let Ej2 = document.querySelector('#Ej2')
@@ -23,10 +23,10 @@ let Ej3 = document.querySelector('#Ej3')
 let botonEj3 = document.querySelector('#botonEj3')
 let nombreUsuario2 = 'Raul'
 botonEj3.onclick = function(){
-    if (nombreUsuario2 == 'Raul'||nombreUsuario2 == 'Pedro'){
-        Ej3.textContent = 'Bienvenido + nombreUsuario2 + , ¿como estas?' 
+    if (nombreUsuario2 == 'Raul'|| nombreUsuario2 == 'Pedro'){
+        Ej3.textContent = 'Bienvenido Raul, ¿como estas?' 
     } else {
-        Ej3.textContent = 'Bienvenido + nombreUsuario2'
+        Ej3.textContent = 'Bienvenido Pedro'
     }
 }
 let Ej4 = document.querySelector('#Ej4')
