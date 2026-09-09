@@ -12,8 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 2%;
-    align-items: center;
-   
+    align-items: center;;
 }
 
 .datos-3{
