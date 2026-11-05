@@ -42,6 +42,30 @@ console.log(productos.length)
 
 //Ejercicio3
 let productos1 = ["teclado", "mouse", "monitor", "auriculares", "webcam", "parlantes"]
+let posicion = productos1.indexOf("mouse")
+console.log(posicion)
+posicion = productos1.indexOf("monitor")
+console.log(posicion)
+posicion = productos1.indexOf("webcam")
+console.log(posicion)
+posicion = productos1.indexOf("impresora")
+console.log(productos1[posicion])
+productos1.indexOf("teclado")
+if (teclado = -1) {
+    console.log("el teclado esta registrado")
+} else {
+    console.log("el teclado no esta registrado")
+}
+productos1.indexOf("impresora")
+if (impresora = -1) {
+    console.log("la impresora esta registrada")
+} else {
+    console.log("la impresora no esta registrada")
+}
+productos1.push("impresora")
+posicion = productos1.indexOf("impresora")
+console.log(productos1[posicion])
+console.log(productos1.length)
 
 //Ejercicio4
 let videojuegos = ["minecraft", "pokemon cristal", "super mario", "the legend of zelda", "sonic"]
